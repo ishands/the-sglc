@@ -1,0 +1,33 @@
+goodbye sdlc. welcome sglc.
+
+the field of software engineering has transformed. it is going through arguably the biggest change in its 60 or so years of history. the time when software was painstakingly DEVELOPED is over. going forward, software will be GENERATED.
+
+when software is no longer developed, who needs an SDLC? we have to replace that with an SGLC, the Software Generation Life Cycle.
+
+i see a few key aspects that are causing this shift.
+
+first, people are changing from builders to drivers. drivers of AI. they are relieved from the drudgery of building - writing specs, code, or tests. they will become problem solvers and drive AI to build the software. the traditional roles of analysts, developers, testers, etc will blur with each driving AI at different levels of emphasis. the "developers" will be replaced by "engineers". we don't need "developers" when we are no longer "developing" software.
+
+next is what i call XaC (everything as code). the SDLC, be it the traditional waterfall model or the many new agile models, was a pipeline to translate requirements captured from a user to working software. we created many mechanisms, formats, and standards to define requirements (SRS, user stories, BDD, and whatnot) to capture the need unambiguously so that developers can write the code and testers can verify whether the code satisfies the needs. with XaC, we just describe what we need and guide the AI with some guardrails and templates (we will discuss this shortly), the documentation will be taken care of. the design documents, acceptance criteria all can be generated which then become the inputs to the AI builders to spit out the code. the architects job will now be to provide design constraints, non-functional requirements etc. the developers and testers will simply drive the AI. requirements, designs, tests, deployments will all be "as code". the latter was already there. what's special in the SGLC is how requirements will be captured "as code".
+
+Git and Markdown will rule. with XaC, everything will reside in Git. All the AI builders, tools like Jira, ClickUp etc will become frontends to Git-based workflows. They will soon have to evolve or else, the community will build (rather generate) the new workspace.
+
+so what is the new workspace? i call it the IGE (the Integrated Generation Environment). what's an IGE? it's the IDE for non-technical people who find dealing with Git, Markdown, etc a bit unnatural. the IGEs will hide those complexities. the engineers will still work on the IDE in a traditional sense, but it's the empowerment of the non-technical stakeholders to embrace the XaC. that;s the core function of the IGEs. Jira, ClickUp etc will become different forms of IGEs. the user stories, epics etc will link to some folder inside a Git repo directly without people having to move or translate information from one format to XaC
+
+the .meta folder - we will need a common format to feed the AI builders with templates and guardrails. I propose a .meta folder in the repo itself (similar to .git). 
+* .meta/templates - store XaC templates such as user story formats, definition of ready, definition of done, ADRs, etc
+* .meta/ai-chats - the repository of AI session data. at present all AI coders have their own ways of saving sessions, task plans, etc
+* .meta/workflows - the workflows for AI coders will reside here
+
+in general, .meta is an umbrella concept to govern the human-AI interaction in the SGLC
+
+finally, what will happen to products? in a world where answers are getting commoditized, the differentiator is going to the questions. we will shift from WYSIWYG to WYAIWYG (A for Ask). #WYAIWYG (waya wig) will mean few things:
+* UIs will move from static WYSIWYG interfaces to AI-first UIs that dynamically draw according to the user conversation
+* the winning products will be those that ask the best question, not the ones that provide ubiquitous answers
+* when everyone is using the same AI tools, the winning designs and code will be the ones where architects and engineers ask the right questions from the AI builder
+
+overall, the era of SDLC is ending. we have started the SGLC era. the combination of Git, Markdown, XaC, and the .meta standard will provide the true independence from vendor lock-in for the world of software engineering! the SGLC is provide the framework and guardrails to stop vibe coding and practice proper engineering to generate answers to the interesting problems we are yet to ask!
+
+Ishan De Silva
+2026/Jan/28
+Colombo, Sri Lanka
