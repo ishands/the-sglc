@@ -19,16 +19,18 @@ work. It has three components, shipped in stages:
 1. A **manifesto** — values and principles, quotable, ~1 page.
 2. An **invariants spec** — the laws that hold across any organisation, any
    stack, any AI tool.
-3. A **default starter implementation** — the configurable, extendable
-   layer that any organisation can fork and shape to its own
-   container.
+3. A **conformance suite** — a durable frame for describing the mechanisms
+   that control ambiguity, a dated snapshot of current tooling, and
+   invariant evaluators an organisation runs against its own toolchain to
+   check it honours the invariants.
 
-The manifesto and the invariants spec ship in v0.1.0. The starter
-implementation is deferred.
+The manifesto and the invariants spec ship in v0.1.0. The conformance
+suite ships in v0.2.0.
 
-The SGLC does not prescribe a process. It states the invariants every
-generation pipeline must respect, intends a default to start from, and
-gets out of the way.
+The SGLC does not prescribe a process, and it does not hand you an
+implementation to adopt. It states the invariants every generation
+pipeline must respect, gives you the instrument to verify your own
+pipeline against them, and gets out of the way.
 
 ---
 
@@ -52,26 +54,43 @@ Shipped:
 
 ---
 
-## v0.2.0 — Default Skills Library
+## v0.2.0 — Conformance Suite
 
-**Goal:** turn the skeleton into a usable starter library that an
-organisation can fork and run with.
+**Goal:** make the SGLC self-testing. Rather than shipping a process for
+organisations to adopt, v0.2.0 ships the *instrument* they check their own
+toolchain against — so the principles can be verified, not just read.
 
-In planning. Scope and shape to be defined.
+In planning.
+
+- [ ] `docs/mechanisms.md` — the durable frame: the role × strength ×
+      residence axes any ambiguity-control mechanism sits on, independent
+      of any specific tool
+- [ ] `docs/report-schema.md` — the shared evaluation report and
+      remediation format
+- [ ] `docs/skill-schema.md` — the SKILL.md frontmatter spec
+- [ ] `guide/` — a dated, supersedable snapshot of how today's tools
+      (AGENTS.md, skills, rules, hooks) map onto the frame
+- [ ] `AGENTS.md` — repo agent instructions documenting the durable/contingent
+      split and the dated-snapshot superseding discipline
+- [ ] Invariant evaluators — one `review-*` skill per invariant
+- [ ] `review-sglc-compliance` — the orchestrator producing a graded,
+      reasoned compliance assessment with prioritised remediation
+- [ ] README and docs wiring
 
 ---
 
-## v0.3.0 — Extension and Verification
+## v0.3.0 — TBD
 
-**Goal:** prove the skeleton fits real shapes; make verification a
-first-class concern, not an afterthought.
-
-Backlog. Scope to be defined.
+The previous "Extension and Verification" scope was largely absorbed by the
+v0.2.0 pivot: verification is now central to the conformance suite, and the
+default library became disposable exemplars. What remains for a v0.3.0, if
+anything, is proving the suite against real shapes — a worked example or
+case study. Scope to be decided after v0.2.0 ships.
 
 ---
 
 ## Future / Unscheduled
 
-- **WYAIWYG companion piece** — standalone treatment of *knowing what and how to ask* (Invariant I-3 expanded)
-- **IGE exploration** — design notes for an Integrated Generation Environment for non-technical drivers
-- Cross-provider adapter notes (Cursor, Gemini CLI, etc.)
+- WYAIWYG companion piece (Invariant I-3 expanded)
+- IGE exploration
+- Cross-provider adapter notes
