@@ -68,7 +68,7 @@ In planning.
 - [x] `schema/evaluation-report.md` — the shared evaluation report and
       remediation format
 - [x] `schema/skill.md` — the SKILL.md frontmatter spec
-- [ ] `guide/` — a dated, supersedable snapshot of how today's tools
+- [x] `guide/` — a dated, supersedable snapshot of how today's tools
       (AGENTS.md, skills, rules, hooks) map onto the frame
 - [ ] `AGENTS.md` — repo agent instructions documenting the durable/contingent
       split and the dated-snapshot superseding discipline
