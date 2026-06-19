@@ -8,8 +8,8 @@
 ## Vision
 
 The Software Development Life Cycle was designed for an era when software was
-*developed* — slowly, by humans. That era is ending. Software is now
-*generated* at AI speed, and the lifecycle that governs it has to be
+_developed_ — slowly, by humans. That era is ending. Software is now
+_generated_ at AI speed, and the lifecycle that governs it has to be
 reinvented from first principles.
 
 The **SGLC** (Software Generation Life Cycle) is that reinvention: a
@@ -57,17 +57,17 @@ Shipped:
 ## v0.2.0 — Conformance Suite
 
 **Goal:** make the SGLC self-testing. Rather than shipping a process for
-organisations to adopt, v0.2.0 ships the *instrument* they check their own
+organisations to adopt, v0.2.0 ships the _instrument_ they check their own
 toolchain against — so the principles can be verified, not just read.
 
 In planning.
 
-- [ ] `docs/mechanisms.md` — the durable frame: the role × strength ×
+- [x] `docs/mechanisms.md` — the durable frame: the role × strength ×
       residence axes any ambiguity-control mechanism sits on, independent
       of any specific tool
-- [ ] `docs/report-schema.md` — the shared evaluation report and
+- [x] `schema/evaluation-report.md` — the shared evaluation report and
       remediation format
-- [ ] `docs/skill-schema.md` — the SKILL.md frontmatter spec
+- [x] `schema/skill.md` — the SKILL.md frontmatter spec
 - [ ] `guide/` — a dated, supersedable snapshot of how today's tools
       (AGENTS.md, skills, rules, hooks) map onto the frame
 - [ ] `AGENTS.md` — repo agent instructions documenting the durable/contingent
