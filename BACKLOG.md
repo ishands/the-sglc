@@ -60,7 +60,7 @@ Shipped:
 organisations to adopt, v0.2.0 ships the _instrument_ they check their own
 toolchain against — so the principles can be verified, not just read.
 
-In planning.
+In progress.
 
 - [x] `docs/mechanisms.md` — the durable frame: the role × strength ×
       residence axes any ambiguity-control mechanism sits on, independent
@@ -70,11 +70,17 @@ In planning.
 - [x] `schema/skill.md` — the SKILL.md frontmatter spec
 - [x] `guide/` — a dated, supersedable snapshot of how today's tools
       (AGENTS.md, skills, rules, hooks) map onto the frame
-- [ ] `AGENTS.md` — repo agent instructions documenting the durable/contingent
-      split and the dated-snapshot superseding discipline
-- [ ] Invariant evaluators — one `review-*` skill per invariant
+- [~] Invariant evaluators — one `review-*` skill per invariant
+      (`review-verification-pace` for I-4 shipped; seven to follow)
 - [ ] `review-sglc-compliance` — the orchestrator producing a graded,
       reasoned compliance assessment with prioritised remediation
+- [ ] `AGENTS.md` — repo agent instructions documenting the durable/contingent
+      split and the dated-snapshot superseding discipline
+- [ ] `guide/howto-create-an-sglc-instance.md` — why an organisation should
+      define its own SGLC rather than adopt an off-the-shelf "AI SDLC", and
+      how to do it in an SGLC-compliant way
+- [ ] `guide/howto-run-a-compliance-review.md` — using the evaluators and
+      orchestrator to assess an organisation's SGLC (or an in-flight AI SDLC)
 - [ ] README and docs wiring
 
 ---
