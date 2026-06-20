@@ -16,7 +16,7 @@ invent its own output shape; it fills this one.
 
 ## Principles
 
-Three commitments shape the format.
+Four commitments shape the format.
 
 **A reviewer, not a linter.** An evaluator returns a graded, reasoned
 judgement — never a bare pass/fail, and never a code fix. Some invariants
@@ -38,6 +38,22 @@ committed alongside the instance it assesses. A conformance judgement that
 lives only in a chat session violates the very laws it checks
 ([I-5](../docs/invariants.md#i-5--the-rules-you-give-ai-belong-in-the-repo-not-in-someones-chat),
 [I-6](../docs/invariants.md#i-6--the-reason-behind-a-choice-fades-fastest--capture-it-at-the-moment-or-lose-it)).
+By convention an evaluator writes its report to
+`docs/reviews/sglc-eval-<i-n>-<YYYY-MM-DD>.md` (the orchestrator's composite
+to `docs/reviews/sglc-compliance-<YYYY-MM-DD>.md`), so reports are
+discoverable and the orchestrator can find them. The evaluator _writes_ the
+report; **committing it is the instance owner's step**, not the evaluator's —
+consistent with the reviewer stance and the human-as-final-gate caveat
+below.
+
+**The evaluation is itself generated output.** An evaluator is an AI
+reviewer, so its own findings are a probabilistic outcome — the very thing
+[I-4](../docs/invariants.md#i-4--when-ai-writes-the-code-checking-it-becomes-the-work)
+warns about, now turned on the suite. A report is a reasoned recommendation
+to be weighed, not a verdict to be applied unread; the human stays the final
+gate. Every report carries this caveat in its header so no reader mistakes a
+grade for a guarantee. This is I-4 once more, recursive: even the
+verification needs verifying.
 
 ---
 
@@ -71,8 +87,11 @@ evaluator emits zero or more. Each finding has six parts.
   or change a **role**, raise a **strength**, or correct a **residence**.
 - **Remediation — concrete** — a pointer into the current
   [tooling snapshot](../guide/) for today's binding of that durable move.
-  This is the only part that names a tool, and it is deliberately the
-  most disposable part of the report.
+  Cite the snapshot by name, date, and section (e.g. _SGLC
+  tooling-snapshot-2026-06, Enforcement binding_) rather than a local file
+  path — the instance under review is usually a different repository, so a
+  relative link will not resolve. This is the only part that names a tool,
+  and it is deliberately the most disposable part of the report.
 - **Priority** — severity of the gap weighted by the stakes of what it
   governs. High / Medium / Low.
 
@@ -105,6 +124,10 @@ One evaluator run produces one report for one invariant.
 - **Grade:** <Honoured | Partial | At risk | Absent>
 - **Summary:** <one or two sentences on why this grade>
 
+> _This evaluation is itself AI-generated and probabilistic. Treat it as a
+> reasoned recommendation, not a verdict — apply your own judgement and
+> verify the findings before acting on them._
+
 ## Working
 <what the evaluator found upheld — credit where due>
 
@@ -132,6 +155,10 @@ overall pass/fail — that would discard exactly the information a team needs.
 
 - **Instance:** <what was assessed>
 - **Date:** <YYYY-MM-DD>
+
+> _This assessment is itself AI-generated and probabilistic. Treat it as a
+> reasoned recommendation, not a verdict — apply your own judgement and
+> verify the findings before acting on them._
 
 ## Scorecard
 | Invariant | Grade |

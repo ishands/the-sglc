@@ -22,6 +22,45 @@ space; the frame is what endures, this is what occupies it today.
 | Procedure   | `SKILL.md` skills        | Advisory      | Repo (shared)                      |
 | Enforcement | hooks                    | Deterministic | Repo (shared), needs local tooling |
 
+## Locating mechanisms in an instance
+
+Before judging an existing repo — assessing it, or just orienting in it —
+find what plays each role. Start at the front door, then inventory by role.
+
+1. **Read the front-door docs first: `README.md` and `AGENTS.md`** (or
+   `CLAUDE.md`, or whatever the instance uses). A well-formed SGLC instance
+   _wires_ its mechanisms from these — they point to where the rules,
+   skills, and gates live. So they are both the entry point for discovery and
+   the first evidence of whether the instance documents itself
+   ([I-5](../docs/invariants.md#i-5--the-rules-you-give-ai-belong-in-the-repo-not-in-someones-chat),
+   [I-6](../docs/invariants.md#i-6--the-reason-behind-a-choice-fades-fastest--capture-it-at-the-moment-or-lose-it)).
+2. **Inventory by role** using today's bindings (the table above):
+   - [**Awareness**](../docs/mechanisms.md#axis-1--role-how-guidance-reaches-generation)
+     → root and nested `AGENTS.md` / `CLAUDE.md`.
+   - [**Recognition**](../docs/mechanisms.md#axis-1--role-how-guidance-reaches-generation)
+     → path-scoped rule files: `.github/instructions/*.instructions.md`
+     (GitHub Copilot), `.cursor/rules/*.mdc` (Cursor), and `.claude/` rules /
+     scoped `CLAUDE.md` files.
+   - [**Procedure**](../docs/mechanisms.md#axis-1--role-how-guidance-reaches-generation)
+     → `skills/*/SKILL.md`, and tool-specific locations such as
+     `.claude/skills/*/SKILL.md`.
+   - [**Enforcement**](../docs/mechanisms.md#axis-1--role-how-guidance-reaches-generation)
+     → hooks and CI gates: git hooks (pre-commit), hook configuration in
+     `.claude.json` / `.claude/settings.json`, and CI workflows
+     (`.github/workflows/` and equivalents).
+3. **A mechanism the front door does not point to is itself a finding.**
+   Guidance that exists but is not wired from `README.md`/`AGENTS.md` is
+   weakly resident — present, but not discoverable by the next contributor
+   or agent. The wiring is part of what makes residence real.
+
+This section is the single source for the discovery step, and **every
+evaluator reads it** — there is no separate copy. The difference is only who
+runs the walk: a standalone evaluator does its own inventory from this
+section; the orchestrator ([`review-sglc-compliance`](../skills/)) runs the
+same inventory once and hands the result to all eight, so they do not each
+re-walk the repo. Same procedure, read from the same place, executed once or
+eight times depending on how the suite is invoked.
+
 ## By role
 
 The examples below are minimal and illustrative — enough to show the shape.
