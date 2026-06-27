@@ -125,16 +125,16 @@ Signals of violation; what this evaluator flags:
 This result depends on and affects sibling invariants — surface these so the
 orchestrator can reason across strands:
 
-- **I-3 (a vague ask produces vague output)** ceilings this one. You cannot
-  verify output against intent if the intent was never made precise — an
-  intent-vs-output check has nothing to check against. A weak I-3 caps the
-  achievable I-4; flag the coupling rather than grading I-4 in isolation.
-- **I-1 / I-2 (intent and the judgement boundary)** feed the upstream half
-  of I-4's "migrate toward better intent." Where those are weak, the
-  upstream investment I-4 expects is missing.
-- **I-5 (rules in the repo)** governs whether the gates themselves are
-  durable: a verification step that lives in one engineer's habit, not in a
-  committed mechanism, is an I-5 weakness showing up as an I-4 risk.
+- **Ask precision (I-3)** ceilings this one. You cannot verify output against
+  intent if the intent was never made precise — an intent-vs-output check has
+  nothing to check against. Weak ask precision caps the achievable output
+  verification; flag the coupling rather than grading this strand in isolation.
+- **Intent origin (I-1) and the Judgement boundary (I-2)** feed the upstream
+  half of output verification's "migrate toward better intent." Where those
+  are weak, the upstream investment this strand expects is missing.
+- **Rule residence (I-5)** governs whether the gates themselves are durable: a
+  verification step that lives in one engineer's habit, not in a committed
+  mechanism, is a residence gap showing up as an output-verification risk.
 
 ## Verdict rubric
 

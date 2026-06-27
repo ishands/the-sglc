@@ -8,7 +8,9 @@ any product. They are the things you cannot ignore without paying for it
 later — the _what_ of the SGLC, separate from the _how_ of any specific
 implementation.
 
-Each invariant has three parts:
+Each invariant carries a short **handle** — a two- or three-word tag for
+citing it in prose and reports without restating the headline — and then
+three parts:
 
 - **The headline** — the form a practitioner recognises from their own
   work.
@@ -16,9 +18,15 @@ Each invariant has three parts:
 - **A contingent example** — one concrete way the invariant shows up in
   today's tooling. The example will age; the invariant won't.
 
+The handles, for reference: I-1 Intent origin · I-2 Judgement boundary ·
+I-3 Ask precision · I-4 Output verification · I-5 Rule residence ·
+I-6 Rationale capture · I-7 Layering · I-8 Local fit.
+
 ---
 
 ## I-1 — Every artifact still starts with someone deciding what it should be.
+
+**Handle:** Intent origin.
 
 Software is always the translation of a human decision into a working
 result. AI compresses how long that translation takes — sometimes from
@@ -34,6 +42,8 @@ gives it.
 
 ## I-2 — Deciding what to build is human work; producing it isn't.
 
+**Handle:** Judgement boundary.
+
 There is always a boundary between deciding _what_ and _why_ (judgment,
 human-owned) and producing _how_ (translation, increasingly AI-owned).
 As AI improves, that boundary moves further toward intent — it never
@@ -47,6 +57,8 @@ tests, configuration).
 ---
 
 ## I-3 — A vague ask produces vague output.
+
+**Handle:** Ask precision.
 
 Generation can't be sharper than the question that drives it.
 Garbage-in / garbage-out is the same law it always was; AI just
@@ -62,6 +74,8 @@ generation begins.
 
 ## I-4 — When AI writes the code, checking it becomes the work.
 
+**Handle:** Output verification.
+
 The bottleneck moves from production to verification. When generating
 is cheap and fast, the scarce act is confirming the output actually
 matches the intent. Controlling the speed of generation _is_ keeping
@@ -75,6 +89,8 @@ change is accepted.
 ---
 
 ## I-5 — The rules you give AI belong in the repo, not in someone's chat.
+
+**Handle:** Rule residence.
 
 The instructions that steer generation — skills, principles,
 templates — are themselves code. They must be durable, versioned, and
@@ -90,6 +106,8 @@ codebases through whatever mechanism the toolchain provides.
 
 ## I-6 — The reason behind a choice fades fastest — capture it at the moment, or lose it.
 
+**Handle:** Rationale capture.
+
 _Why_ a thing was generated a given way is the first piece of context
 to decay and the hardest to recover from the code alone. It has to be
 captured at the time of generation, not reconstructed later from a
@@ -102,6 +120,8 @@ repository at the moment of the choice, not reconstructed later.
 ---
 
 ## I-7 — Universal principles and team-specific rules both apply, layered.
+
+**Handle:** Layering.
 
 Generation knowledge composes additively: a shared baseline plus a
 contextual specialization, not one replacing the other. A general
@@ -119,6 +139,8 @@ specialisations.
 ---
 
 ## I-8 — No process framework survives contact with a real team.
+
+**Handle:** Local fit.
 
 Every team and every codebase differs in people, history, tools, and
 constraints. A fixed lifecycle is dead on arrival; only principles

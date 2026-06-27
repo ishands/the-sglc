@@ -40,12 +40,14 @@ the whole assessment — do it here, once.
 ### 2. Run the eight evaluators, passing the inventory
 
 Apply each per-invariant evaluator, **supplying the inventory built in
-step 1 as its input** so it does not re-walk the repo. Each evaluator that
-runs writes its own per-invariant report to
-`docs/reviews/sglc-eval-<i-n>-<YYYY-MM-DD>.md` (the schema's filename
-convention) and returns it for aggregation — so the graded strands leave
-durable, individually citable artefacts behind, not just rows in the
-composite.
+step 1 as its input** so it does not re-walk the repo. Each produces one
+per-invariant report in the standard format, which you carry into the
+composite. The **composite is the deliverable of an orchestrated run** — it
+embeds every finding in full six-part form, so you need _not_ also write the
+eight separate `sglc-eval-<i-n>-<YYYY-MM-DD>.md` files. Those are the
+artefact of running an evaluator **standalone**; write one here only if a
+single strand warrants its own citable record, otherwise let the composite
+carry them all.
 
 | Invariant | Evaluator |
 | --------- | --------- |
@@ -86,22 +88,24 @@ The reason not to average is that the invariants constrain one another, and a
 fix applied in the wrong order is wasted. Sequence the roadmap so an
 upstream invariant is fixed before the one it caps. The standing couplings:
 
-- **I-3 ceilings I-4.** You cannot verify output against intent that was
-  never made precise. Fix a vague-ask gap before investing in stronger
-  checks — otherwise the checks have nothing sound to test against.
-- **I-1 / I-2 feed I-3 and I-4.** Where intent origin or the judgement
+- **Ask precision (I-3) ceilings Output verification (I-4).** You cannot
+  verify output against intent that was never made precise. Fix an
+  ask-precision gap before investing in stronger checks — otherwise the checks
+  have nothing sound to test against.
+- **Intent origin (I-1) and the Judgement boundary (I-2) feed Ask precision
+  (I-3) and Output verification (I-4).** Where intent origin or the judgement
   boundary is weak, the precision and verification downstream inherit the
   weakness.
-- **I-5 and I-6 underwrite durability everywhere.** A mechanism that is not
-  repo-resident (I-5) or whose rationale was never captured (I-6) will
-  decay whatever invariant it serves. A weak I-5 frequently surfaces _as_
-  another invariant's risk — for example a verification gate (I-4) that
-  lives only in habit or platform config is an I-5 residence gap wearing an
-  I-4 mask. Name the root, not the symptom.
-- **I-7 and I-8 govern shape.** Layering (I-7) and local fit (I-8) determine
-  whether the other mechanisms compose and survive contact with the team;
-  treat them as structural constraints on the roadmap, not standalone
-  line-items.
+- **Rule residence (I-5) and Rationale capture (I-6) underwrite durability
+  everywhere.** A mechanism that is not repo-resident (rule residence) or whose
+  rationale was never captured (rationale capture) will decay whatever
+  invariant it serves. A weak rule residence frequently surfaces _as_ another
+  invariant's risk — for example an Output verification (I-4) gate that lives
+  only in habit or platform config is really a Rule residence (I-5) gap wearing
+  an output-verification mask. Name the root, not the symptom.
+- **Layering (I-7) and Local fit (I-8) govern shape.** They determine whether
+  the other mechanisms compose and survive contact with the team; treat them as
+  structural constraints on the roadmap, not standalone line-items.
 
 When findings interact, attribute each to its root invariant and order the
 roadmap from root to symptom. State the couplings you relied on so the team
@@ -129,5 +133,5 @@ weak invariant caps another), and the **Remediation roadmap** — the
 sequenced, durable-before-concrete plan that is the real deliverable. Like
 the per-invariant reports it aggregates, this assessment is itself committed
 to the repository alongside the instance it assesses
-([I-5](../../docs/invariants.md#i-5--the-rules-you-give-ai-belong-in-the-repo-not-in-someones-chat),
-[I-6](../../docs/invariants.md#i-6--the-reason-behind-a-choice-fades-fastest--capture-it-at-the-moment-or-lose-it)).
+([rule residence (I-5)](../../docs/invariants.md#i-5--the-rules-you-give-ai-belong-in-the-repo-not-in-someones-chat),
+[rationale capture (I-6)](../../docs/invariants.md#i-6--the-reason-behind-a-choice-fades-fastest--capture-it-at-the-moment-or-lose-it)).
