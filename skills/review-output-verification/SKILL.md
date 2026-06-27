@@ -1,5 +1,5 @@
 ---
-name: review-verification-pace
+name: review-output-verification
 description: Assess whether an SGLC instance keeps verification in step with
   generation. Use when checking whether an instance honours I-4 — that
   checking AI-written output is treated as the real work, gated and paced,

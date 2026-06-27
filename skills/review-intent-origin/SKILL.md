@@ -66,7 +66,7 @@ cold with the AI inferring its own brief.
 - **Human ownership of the decision.** The invariant says _someone_ decides.
   Is the "what" owned by a named human, or is the AI both deciding the brief
   and producing against it? (Where the AI decides the what, the
-  [judgement boundary (I-2)](../review-create-generate-boundary/) has also gone
+  [judgement boundary (I-2)](../review-judgement-boundary/) has also gone
   — flag the coupling.)
 - **Where the decision lives.** A decision recorded in the repo survives; one
   that exists only in a chat session evaporates. Note the
@@ -95,7 +95,7 @@ Signals of violation; what this evaluator flags:
   recorded "someone deciding."
 - **The AI originates the brief.** The model decides what should be built,
   not merely how — the decision step has been handed to generation. (This is
-  also a [judgement-boundary (I-2)](../review-create-generate-boundary/)
+  also a [judgement-boundary (I-2)](../review-judgement-boundary/)
   collapse; name the root.)
 - **Decision exists only in chat.** A human did decide, but the decision
   lives in a conversation or someone's head and was never recorded — so the

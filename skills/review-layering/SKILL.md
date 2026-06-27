@@ -113,9 +113,9 @@ orchestrator can reason across strands:
   is a residence gap showing up as brittle layering.
 - Layering applies to _all_ generation knowledge — the judgement guidance
   ([intent origin](../review-intent-origin/) /
-  [judgement boundary](../review-create-generate-boundary/)), the
+  [judgement boundary](../review-judgement-boundary/)), the
   [ask precision](../review-ask-precision/) templates, the
-  [output verification](../review-verification-pace/) checks — so a layering
+  [output verification](../review-output-verification/) checks — so a layering
   weakness can blunt several strands at once.
 
 ## Verdict rubric

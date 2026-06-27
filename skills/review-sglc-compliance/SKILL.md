@@ -52,9 +52,9 @@ carry them all.
 | Invariant | Evaluator |
 | --------- | --------- |
 | I-1 — every artifact starts with someone deciding what it should be | [`review-intent-origin`](../review-intent-origin/) |
-| I-2 — deciding what to build is human work; producing it isn't | [`review-create-generate-boundary`](../review-create-generate-boundary/) |
+| I-2 — deciding what to build is human work; producing it isn't | [`review-judgement-boundary`](../review-judgement-boundary/) |
 | I-3 — a vague ask produces vague output | [`review-ask-precision`](../review-ask-precision/) |
-| I-4 — when AI writes the code, checking it becomes the work | [`review-verification-pace`](../review-verification-pace/) |
+| I-4 — when AI writes the code, checking it becomes the work | [`review-output-verification`](../review-output-verification/) |
 | I-5 — the rules you give AI belong in the repo | [`review-rule-residence`](../review-rule-residence/) |
 | I-6 — the reason behind a choice fades fastest | [`review-rationale-capture`](../review-rationale-capture/) |
 | I-7 — universal principles and team-specific rules both apply, layered | [`review-layering`](../review-layering/) |

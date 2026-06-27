@@ -1,5 +1,5 @@
 ---
-name: review-create-generate-boundary
+name: review-judgement-boundary
 description: Assess whether an SGLC instance keeps deciding-what-to-build as
   human work and producing-it as AI work. Use when checking whether an
   instance honours I-2 — that a clear, observed boundary separates
@@ -110,7 +110,7 @@ orchestrator can reason across strands:
   asks whether a decision exists and is recorded; the judgement boundary asks
   whether the human, not the AI, makes it. Together they feed
   [Ask precision (I-3)](../review-ask-precision/) and
-  [Output verification (I-4)](../review-verification-pace/) — the precision and
+  [Output verification (I-4)](../review-output-verification/) — the precision and
   verification downstream inherit any weakness here.
 - **Output verification (I-4)** is the other human-judgement bookend. The
   judgement boundary keeps the human owning the _what_ at the front; output

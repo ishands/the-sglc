@@ -112,7 +112,7 @@ orchestrator can reason across strands:
 
 - **Rule residence (I-5) underwrites durability everywhere — so a residence
   gap often surfaces first as another invariant's risk.** An
-  [Output verification (I-4)](../review-verification-pace/) gate that lives
+  [Output verification (I-4)](../review-output-verification/) gate that lives
   only in habit, an [Ask precision (I-3)](../review-ask-precision/) template
   that sits in a personal prompt file, a
   [Rationale capture (I-6)](../review-rationale-capture/) record kept only in a

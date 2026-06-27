@@ -68,7 +68,7 @@ quality is left hostage to however a prompt happened to be phrased.
 - **Acceptance criteria — does the ask say what "correct" means?** An ask
   that names a feature but not the criteria it must satisfy is vague in the
   way that matters most: there is nothing precise to generate toward, and
-  nothing for [output verification (I-4)](../review-verification-pace/) to
+  nothing for [output verification (I-4)](../review-output-verification/) to
   check against later.
 - **Whether precision is treated as engineering work.** Is the discipline of
   asking well owned and reviewed — templates maintained, criteria critiqued —
@@ -107,7 +107,7 @@ Signals of violation; what this evaluator flags:
 This result depends on and affects sibling invariants — surface these so the
 orchestrator can reason across strands:
 
-- **Ask precision (I-3) ceilings [Output verification (I-4)](../review-verification-pace/).**
+- **Ask precision (I-3) ceilings [Output verification (I-4)](../review-output-verification/).**
   This is the headline coupling, and it runs both ways. You cannot verify
   output against intent that was never made precise — weak ask precision caps
   the achievable output verification, because an intent-vs-output check has
@@ -117,7 +117,7 @@ orchestrator can reason across strands:
 - **Intent origin (I-1) and the Judgement boundary (I-2)** feed this one. A
   precise ask presupposes that a decision exists
   ([intent origin](../review-intent-origin/)) and is human-owned
-  ([judgement boundary](../review-create-generate-boundary/)); ask precision
+  ([judgement boundary](../review-judgement-boundary/)); ask precision
   grades the quality of that decision as stated. Where those are weak,
   precision has nothing to sharpen.
 - **Rule residence (I-5)** governs whether the templates and checklists are
