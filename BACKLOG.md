@@ -60,7 +60,7 @@ Shipped:
 organisations to adopt, v0.2.0 ships the _instrument_ they check their own
 toolchain against — so the principles can be verified, not just read.
 
-In progress.
+All scoped items complete; pending the `v0.2.0` release tag.
 
 - [x] `docs/mechanisms.md` — the durable frame: the role × strength ×
       residence axes any ambiguity-control mechanism sits on, independent
@@ -74,14 +74,15 @@ In progress.
       (all eight shipped, on the validated I-4 mould)
 - [x] `review-sglc-compliance` — the orchestrator producing a graded,
       reasoned compliance assessment with prioritised remediation
-- [ ] `AGENTS.md` — repo agent instructions documenting the durable/contingent
+- [x] `AGENTS.md` — repo agent instructions documenting the durable/contingent
       split and the dated-snapshot superseding discipline
-- [ ] `guide/howto-create-an-sglc-instance.md` — why an organisation should
+- [x] `guide/howto-create-an-sglc-instance.md` — why an organisation should
       define its own SGLC rather than adopt an off-the-shelf "AI SDLC", and
       how to do it in an SGLC-compliant way
-- [ ] `guide/howto-run-a-compliance-review.md` — using the evaluators and
+- [x] `guide/howto-run-a-compliance-review.md` — using the evaluators and
       orchestrator to assess an organisation's SGLC (or an in-flight AI SDLC)
-- [ ] README and docs wiring
+- [x] README and docs wiring — front door leads with v0.2.0; read-order and
+      repository table extended to the mechanism frame, schema, guide, skills
 
 ---
 
