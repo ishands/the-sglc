@@ -1,0 +1,25 @@
+# Deterministic line endings: store and check out all text as LF.
+# Without this, a Windows checkout rewrites files to CRLF and Git warns
+# "LF will be replaced by CRLF" on every commit. eol=lf keeps the working
+# tree LF too, so there is nothing to convert and no warning.
+* text=auto eol=lf
+
+# Explicit text types — redundant with the rule above, but documents intent
+# and attaches the built-in markdown diff driver for section-aware hunks.
+*.md        text eol=lf diff=markdown
+*.markdown  text eol=lf diff=markdown
+*.txt       text eol=lf
+*.json      text eol=lf
+*.yml       text eol=lf
+*.yaml      text eol=lf
+*.toml      text eol=lf
+*.sh        text eol=lf
+*.svg       text eol=lf
+
+# Binary assets — never convert line endings or diff as text.
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ico   binary
+*.pdf   binary
