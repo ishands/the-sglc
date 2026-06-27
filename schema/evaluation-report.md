@@ -1,7 +1,5 @@
 # The SGLC Evaluation Report Schema
 
-**v0.2.0 — draft**
-
 The conformance suite answers one question — _is this an SGLC instance, and
 does it honour the invariants?_ — by running [evaluators](../skills/)
 against an organisation's own toolchain. This document defines the single

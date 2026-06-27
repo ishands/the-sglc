@@ -1,7 +1,5 @@
 # The Manifesto for Software Generation
 
-**v0.1.0**
-
 The SDLC was built for an era when software was _developed_. That era
 is ending.
 

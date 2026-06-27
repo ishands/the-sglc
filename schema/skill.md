@@ -1,7 +1,5 @@
 # The SGLC Skill Schema
 
-**v0.2.0 — draft**
-
 The conformance suite ships as skills — the eight invariant
 [evaluators](../skills/) and their orchestrator. SGLC does not define a
 skill format; it uses the Agent Skills open standard (agentskills.io): a

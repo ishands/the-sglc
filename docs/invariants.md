@@ -1,7 +1,5 @@
 # The SGLC Invariants
 
-**v0.1.0**
-
 The invariants are the laws of software generation. They are intended to
 hold across any organisation, any technology stack, any AI tool, and
 any product. They are the things you cannot ignore without paying for it

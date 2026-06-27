@@ -1,7 +1,5 @@
 # The SGLC Mechanism Frame
 
-**v0.2.0 — draft**
-
 The invariants are silent on implementation by design. They state the
 laws of software generation and leave the _how_ — the tools that carry
 those laws into a working pipeline — deliberately open, because the tools
