@@ -45,3 +45,7 @@ not to edit the existing one.
 ## Current snapshot
 
 - [tooling-snapshot-2026-06.md](./tooling-snapshot-2026-06.md) — current.
+
+---
+
+**Navigate:** [Home](../README.md) · [Manifesto](../docs/manifesto.md) · [Invariants](../docs/invariants.md) · [Essay](../docs/essay.md) · [Mechanism frame](../docs/mechanisms.md) · [Create an instance](howto-create-an-sglc-instance.md) · [Run a review](howto-run-a-compliance-review.md)

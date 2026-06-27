@@ -219,3 +219,7 @@ omitted. It keeps its scorecard row (marked _not assessed_) and the composite
 leads with the **Coverage** caveat above. A partial assessment must never read
 as a clean bill of health on the strands it never examined; the caveat and the
 explicit rows are what keep silence from being mistaken for a pass.
+
+---
+
+**Navigate:** [Home](../README.md) · [Manifesto](../docs/manifesto.md) · [Invariants](../docs/invariants.md) · [Essay](../docs/essay.md) · [Mechanism frame](../docs/mechanisms.md) · [Create an instance](../guide/howto-create-an-sglc-instance.md) · [Run a review](../guide/howto-run-a-compliance-review.md)

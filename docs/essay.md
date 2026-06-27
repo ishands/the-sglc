@@ -85,10 +85,11 @@ If the SDLC is the wrong starting point, what replaces it?
 
 **The answer is not another methodology**. The answer is a different
 _kind_ of artefact: a small set of laws that hold regardless of
-organisation, stack, or AI tool — together with a default skeleton
-that any team can fit to its own context. The laws are the invariant
-core. The skeleton is the contingent implementation that takes the
-shape of its container.
+organisation, stack, or AI tool — together with an instrument each team
+uses to check its own pipeline against them. The laws are the invariant
+core. The instrument is contingent: it describes the mechanisms that
+control ambiguity and verifies conformance, without prescribing the
+implementation, which takes the shape of its container.
 
 This is the **Software Generation Life Cycle (SGLC)**: a
 principles-first process framework for governing AI-driven software
@@ -97,9 +98,10 @@ work.
 The SDLC is a _methodology_: a prescribed sequence of phases and
 activities that organisations are expected to adopt. **The SGLC is a
 _principles framework_: a set of laws that hold regardless of phases
-or activities, with a default skeleton that organisations reshape**.
-Where the SDLC tells you _what to do_, the SGLC tells you _what must
-remain true_ — and leaves the doing to the team.
+or activities, with an instrument organisations use to verify their own
+implementation against them**. Where the SDLC tells you _what to do_,
+the SGLC tells you _what must remain true_ — and leaves the doing to the
+team.
 
 ---
 
@@ -226,9 +228,9 @@ whole-organisation hierarchies. _No process framework survives contact
 with a real team_ (I-8) names the adaptation requirement: the framework
 must be like water, taking the shape of its container.
 
-Each of these has a memorable shorthand, drawn from the original
-framing of the SGLC concept and preserved as practitioner-facing
-handles. _Drivers over builders_ is I-2 in pocket form. _Everything as
+Each of these also has a memorable **pocket name**, drawn from the
+original framing of the SGLC concept and kept for practitioner
+conversation. _Drivers over builders_ is I-2 in pocket form. _Everything as
 Code (XaC)_ is I-5. _What You Ask Is What You Get (WYAIWYG)_ is I-3.
 _The `meta` layer_ is I-6. _Be like water_ is I-7 and I-8 together.
 These names are not the laws. They are the way practitioners refer to
@@ -238,18 +240,20 @@ the laws in conversation. The laws are stated in the spec.
 
 ## 4. What Comes Next
 
-The invariants are the _what_. The SGLC also intends to ship a default
-_how_ — a starter implementation that any organisation can adopt and
-reshape to fit. That implementation is deliberately deferred to a
-later release.
+The invariants are the _what_. The _how_ ships separately — and
+deliberately not as a prescribed implementation to adopt. It ships as a
+**conformance suite**: a durable frame for the mechanisms that control
+ambiguity, a dated snapshot of the tools that fill that frame today, and
+evaluators each organisation runs against its own pipeline to check that
+it honours the invariants. The instrument is shared; the implementation
+stays the organisation's own.
 
-The shape of the deferral is itself principled. Naming a specific
-phase model, a specific instruction schema, a specific verification
-framework, or a specific AI tool is the contingent layer that will
-change. The laws above do not depend on those choices. Publishing the
-laws before the implementation is the bet that the laws have to be
-right first; the implementation can be debated and rebuilt; the
-invariants either hold or they do not.
+The separation is itself principled. Naming a specific phase model, a
+specific instruction schema, a specific verification framework, or a
+specific AI tool is the contingent layer that will change — so it lives
+in a dated snapshot that can be reissued without disturbing the laws.
+The laws either hold or they do not; the tooling beneath them is
+expected to be superseded.
 
 A public [backlog](../BACKLOG.md) sketches the trajectory.
 
@@ -269,12 +273,12 @@ spare capacity to reshape themselves around someone else's lifecycle**.
 They do not want to. They should not have to.
 
 **A principles-first framework arrives at an organisation as a set of
-laws and a starter kit**. The laws are non-negotiable: every generation
-pipeline must honour them or pay for the omission later. The starter
-kit is meant to be reshaped. The organisation's culture, tooling,
-products, and people determine what the implementation looks like; the
-invariants determine that it remains coherent across those local
-variations.
+laws and an instrument to check itself against them**. The laws are
+non-negotiable: every generation pipeline must honour them or pay for
+the omission later. The implementation is the organisation's own to
+build and reshape — its culture, tooling, products, and people determine
+what it looks like; the invariants, and the suite that tests for them,
+determine that it stays coherent across those local variations.
 
 This is not the same as having no framework. The eight invariants are
 uncompromising. An organisation can shape its lifecycle however it
@@ -372,11 +376,12 @@ in a real context — the framework reduces. The invariant set is the
 core claim, falsifiable in principle, and the spec is the artefact
 that can be argued.
 
-It bets that _the skeleton is fittable_. A default starter
-implementation, when it ships, is intended to be taken by real
-organisations and shaped into something organisation-specific without
-paying more than they would to build from scratch. If the shaping cost
-exceeds the saved cost, the skeleton fails.
+It bets that _the suite earns its keep_. An organisation builds its own
+generation pipeline, shaped to its own context, and uses a shared
+instrument to verify that the pipeline honours the invariants — rather
+than adopting a prescribed implementation. If running that check is not
+cheaper or clearer than reasoning about conformance ad hoc, the suite
+fails to earn its place.
 
 These bets are the substance of the SGLC. The manifesto declares them.
 The invariants spec formalises them. This essay argues them.
@@ -385,3 +390,7 @@ The invariants spec formalises them. This essay argues them.
 
 _For the declarative form, see [the Manifesto](manifesto.md). For the
 formal laws, see [the Invariants Spec](invariants.md)._
+
+---
+
+**Navigate:** [Home](../README.md) · [Manifesto](manifesto.md) · [Invariants](invariants.md) · [Essay](essay.md) · [Mechanism frame](mechanisms.md) · [Create an instance](../guide/howto-create-an-sglc-instance.md) · [Run a review](../guide/howto-run-a-compliance-review.md)

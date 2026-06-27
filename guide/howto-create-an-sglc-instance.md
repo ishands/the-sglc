@@ -167,3 +167,7 @@ keeps reshaping it. Neither stops. The invariants are what stay still while
 everything beneath them moves — which is exactly why you build to them and not
 to a tool. When you want to know how well your instance holds, [run the suite
 against it](./howto-run-a-compliance-review.md).
+
+---
+
+**Navigate:** [Home](../README.md) · [Manifesto](../docs/manifesto.md) · [Invariants](../docs/invariants.md) · [Essay](../docs/essay.md) · [Mechanism frame](../docs/mechanisms.md) · [Create an instance](howto-create-an-sglc-instance.md) · [Run a review](howto-run-a-compliance-review.md)

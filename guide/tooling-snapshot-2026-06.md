@@ -232,3 +232,7 @@ Raw syntax and reference detail — exact rule frontmatter, the full list of
 hook events and matchers, settings file schemas — change fastest and are
 owned better by vendor documentation. This snapshot names the bindings and
 their shape; consult the vendors for current syntax.
+
+---
+
+**Navigate:** [Home](../README.md) · [Manifesto](../docs/manifesto.md) · [Invariants](../docs/invariants.md) · [Essay](../docs/essay.md) · [Mechanism frame](../docs/mechanisms.md) · [Create an instance](howto-create-an-sglc-instance.md) · [Run a review](howto-run-a-compliance-review.md)

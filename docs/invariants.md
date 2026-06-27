@@ -158,10 +158,16 @@ The invariants are deliberately silent on the _implementation_ of any
 of these laws. They do not specify a phase model, a skill schema, a
 distribution mechanism, a verification framework, or a particular AI
 tool. Those are the contingent layer — the _how_ — and they will
-change. The SGLC intends to ship a default for each in a later
-release, but every default is meant to be replaceable.
+change. The SGLC addresses that layer through a separate conformance
+suite — a durable mechanism frame, a dated tooling snapshot, and
+evaluators an organisation runs against its own pipeline — rather than
+by prescribing an implementation to adopt.
 
 The invariants are also silent on roles, titles, and organisational
 structure. They describe the work, not who does it. How an
 organisation distributes the work across people is the organisation's
 choice; the work itself doesn't change.
+
+---
+
+**Navigate:** [Home](../README.md) · [Manifesto](manifesto.md) · [Invariants](invariants.md) · [Essay](essay.md) · [Mechanism frame](mechanisms.md) · [Create an instance](../guide/howto-create-an-sglc-instance.md) · [Run a review](../guide/howto-run-a-compliance-review.md)

@@ -66,3 +66,7 @@ general — the shape of
 [I-7](../docs/invariants.md#i-7--universal-principles-and-team-specific-rules-both-apply-layered).
 This schema fixes no single layering mechanism; it only requires that skills
 be written to add to, not overwrite, the skills beneath them.
+
+---
+
+**Navigate:** [Home](../README.md) · [Manifesto](../docs/manifesto.md) · [Invariants](../docs/invariants.md) · [Essay](../docs/essay.md) · [Mechanism frame](../docs/mechanisms.md) · [Create an instance](../guide/howto-create-an-sglc-instance.md) · [Run a review](../guide/howto-run-a-compliance-review.md)

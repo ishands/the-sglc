@@ -151,3 +151,7 @@ An instance is never finished
 ([Local fit (I-8)](../docs/invariants.md#i-8--no-process-framework-survives-contact-with-a-real-team)),
 so neither is its review. It is a recurring check, not a one-time
 certification.
+
+---
+
+**Navigate:** [Home](../README.md) · [Manifesto](../docs/manifesto.md) · [Invariants](../docs/invariants.md) · [Essay](../docs/essay.md) · [Mechanism frame](../docs/mechanisms.md) · [Create an instance](howto-create-an-sglc-instance.md) · [Run a review](howto-run-a-compliance-review.md)

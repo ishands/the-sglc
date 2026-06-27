@@ -141,3 +141,7 @@ would stop being like water. The frame describes the space; the
 organisation chooses its own points within it, and fits them to its own
 container —
 [**I-8**](invariants.md#i-8--no-process-framework-survives-contact-with-a-real-team).
+
+---
+
+**Navigate:** [Home](../README.md) · [Manifesto](manifesto.md) · [Invariants](invariants.md) · [Essay](essay.md) · [Mechanism frame](mechanisms.md) · [Create an instance](../guide/howto-create-an-sglc-instance.md) · [Run a review](../guide/howto-run-a-compliance-review.md)

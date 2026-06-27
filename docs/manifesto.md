@@ -67,10 +67,15 @@ are intended to outlast any specific tool, methodology, or organisation.
    local rules both apply, additively. Don't replace; extend.
 
 8. **Ship principles; let the implementation fit locally.** No process
-   framework survives contact with a real team unaltered. The default
-   exists to be reshaped.
+   framework survives contact with a real team unaltered. The
+   implementation is the team's to shape; the laws are what must survive
+   the reshaping.
 
 ---
 
 The full laws behind these are in [the Invariants](invariants.md). The
 argued reading is in [the Essay](essay.md).
+
+---
+
+**Navigate:** [Home](../README.md) · [Manifesto](manifesto.md) · [Invariants](invariants.md) · [Essay](essay.md) · [Mechanism frame](mechanisms.md) · [Create an instance](../guide/howto-create-an-sglc-instance.md) · [Run a review](../guide/howto-run-a-compliance-review.md)
