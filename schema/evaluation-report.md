@@ -160,6 +160,11 @@ overall pass/fail — that would discard exactly the information a team needs.
 > reasoned recommendation, not a verdict — apply your own judgement and
 > verify the findings before acting on them._
 
+> **Coverage** _(include this block only if any invariant was not assessed)_ —
+> this is a **partial** assessment: N of 8 invariants were graded; the rest
+> are marked _not assessed_ in the scorecard below. Silence on an invariant
+> is not a pass — it means no evaluator ran for it.
+
 ## Scorecard
 | Invariant | Grade |
 |-----------|-------|
@@ -194,3 +199,10 @@ The roadmap is the deliverable. A scorecard tells a team where it stands; a
 coupling-aware sequence tells it what to do first — and the durable
 remediation on each step keeps that advice good after today's tools have
 been superseded.
+
+An invariant with no evaluator to run — because the suite is incomplete, an
+evaluator errored, or only a subset was requested — is **not assessed**, not
+omitted. It keeps its scorecard row (marked _not assessed_) and the composite
+leads with the **Coverage** caveat above. A partial assessment must never read
+as a clean bill of health on the strands it never examined; the caveat and the
+explicit rows are what keep silence from being mistaken for a pass.
