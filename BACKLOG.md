@@ -70,8 +70,8 @@ In progress.
 - [x] `schema/skill.md` — the SKILL.md frontmatter spec
 - [x] `guide/` — a dated, supersedable snapshot of how today's tools
       (AGENTS.md, skills, rules, hooks) map onto the frame
-- [~] Invariant evaluators — one `review-*` skill per invariant
-      (`review-verification-pace` for I-4 shipped; seven to follow)
+- [x] Invariant evaluators — one `review-*` skill per invariant
+      (all eight shipped, on the validated I-4 mould)
 - [x] `review-sglc-compliance` — the orchestrator producing a graded,
       reasoned compliance assessment with prioritised remediation
 - [ ] `AGENTS.md` — repo agent instructions documenting the durable/contingent
