@@ -1,6 +1,6 @@
 # SGLC — Backlog
 
-**Last updated:** 2026-05-30
+**Last updated:** 2026-06-27
 **Status key:** `[ ]` todo · `[~]` in progress · `[x]` done · `[-]` descoped
 
 ---
@@ -72,7 +72,7 @@ In progress.
       (AGENTS.md, skills, rules, hooks) map onto the frame
 - [~] Invariant evaluators — one `review-*` skill per invariant
       (`review-verification-pace` for I-4 shipped; seven to follow)
-- [ ] `review-sglc-compliance` — the orchestrator producing a graded,
+- [x] `review-sglc-compliance` — the orchestrator producing a graded,
       reasoned compliance assessment with prioritised remediation
 - [ ] `AGENTS.md` — repo agent instructions documenting the durable/contingent
       split and the dated-snapshot superseding discipline
